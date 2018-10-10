@@ -1,2 +1,4 @@
 # template_Article
-This is my template for writing scientific articles.
+A template for writing scientific articles with support of an external bibliography file (.bib).
+
+WIP
