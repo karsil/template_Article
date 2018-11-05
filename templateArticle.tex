@@ -61,7 +61,7 @@
 
 \usepackage{hyperref} % For hyperlinks in the PDF
 
-\usepackage[backend=biber]{biblatex}
+\usepackage[backend=biber,style=alphabetic, citestyle=authoryear]{biblatex}
 \addbibresource{bibliography.bib}
 
 %----------------------------------------------------------------------------------------
@@ -123,6 +123,7 @@ Maecenas sed ultricies felis. Sed imperdiet dictum arcu a egestas.
 \end{itemize}
 \blindtext % Dummy text
 
+
 Text requiring further explanation\footnote{Example footnote}.
 
 %------------------------------------------------
@@ -159,7 +160,7 @@ e = mc^2
 
 \subsection{Subsection One}
 
-A statement requiring citation \cite{Lawrence1997}.
+A statement requiring citation \parencite[p.12]{Lawrence1997}.
 \blindtext % Dummy text
 
 \subsection{Subsection Two}
